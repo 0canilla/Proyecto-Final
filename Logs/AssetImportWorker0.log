@@ -1,0 +1,2572 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 6030 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/GONZALO/Proyecto Final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55554
+Successfully changed project path to: C:/Users/GONZALO/Proyecto Final
+C:/Users/GONZALO/Proyecto Final
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 121.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/GONZALO/Proyecto Final/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     3015 MB
+    Driver:   27.20.1021.1002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010096 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 121.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5386ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1395ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (499ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3115ms)
+		BeginReloadAssembly (448ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (2445ms)
+			LoadAssemblies (294ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (801ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (915ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (697ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.9 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1862.
+Total: 9.114900 ms (FindLiveObjects: 0.530100 ms CreateObjectMapping: 0.165300 ms MarkObjects: 8.159500 ms  DeleteObjects: 0.255100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type5 Big.prefab
+  artifactKey: Guid(6bea119038cba374387862a060db5358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type5 Big.prefab using Guid(6bea119038cba374387862a060db5358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579da7b66bf31ebfd27468f1f7906fb9') in 0.671088 seconds 
+  Import took 0.680959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Dagger_01_a.prefab
+  artifactKey: Guid(cdb7a497e7ed62243984bf81f2c19ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Dagger_01_a.prefab using Guid(cdb7a497e7ed62243984bf81f2c19ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06f1f26193cc8dde3928e9f5398bb66') in 0.055935 seconds 
+  Import took 0.066851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type4 Big.prefab
+  artifactKey: Guid(6c7e01809ee343847a660faeaa78d718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type4 Big.prefab using Guid(6c7e01809ee343847a660faeaa78d718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1e56bfa2e7029b288eaaae06fbbbb5') in 0.040423 seconds 
+  Import took 0.048550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Club_01_a.prefab
+  artifactKey: Guid(d899e8694e33de045913544914a22216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Club_01_a.prefab using Guid(d899e8694e33de045913544914a22216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034836a6b94ea3f4821a019c62d735c4') in 0.038037 seconds 
+  Import took 0.044020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type6 Small.prefab
+  artifactKey: Guid(2d525f55a99e5bd4e98aec363e675a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type6 Small.prefab using Guid(2d525f55a99e5bd4e98aec363e675a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7037ad2cfa872f253b30522505c2ef9') in 0.037836 seconds 
+  Import took 0.042141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type2 02.prefab
+  artifactKey: Guid(c107d6218da3747479b38075e3042255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type2 02.prefab using Guid(c107d6218da3747479b38075e3042255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cd6c750fb2047afcfb05e12438aada') in 0.309630 seconds 
+  Import took 0.314704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type2 03.prefab
+  artifactKey: Guid(ab5e0beb1c36778479983f28b65d97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type2 03.prefab using Guid(ab5e0beb1c36778479983f28b65d97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313282b412b9c5dfac7ce2ee96f84b58') in 0.038731 seconds 
+  Import took 0.045777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000685 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type2 01.prefab
+  artifactKey: Guid(b10237067370545479ead9bdac817d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type2 01.prefab using Guid(b10237067370545479ead9bdac817d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd16393be3efd5d6866abc2d78483e8') in 0.037354 seconds 
+  Import took 0.043469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type4 Small.prefab
+  artifactKey: Guid(da8e893168526164591f81d60c0e06b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type4 Small.prefab using Guid(da8e893168526164591f81d60c0e06b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1a3a5cb05ee084ed8ad80558e41c1b') in 0.039853 seconds 
+  Import took 0.046538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Animated/Fence Type3 Door.prefab
+  artifactKey: Guid(c3db2cebc8fb0e54ab37bf47bacb4b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Animated/Fence Type3 Door.prefab using Guid(c3db2cebc8fb0e54ab37bf47bacb4b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede62c0486a11066ca2661e3c8e458b5') in 0.143374 seconds 
+  Import took 0.150094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/TerrainData_f071eebd-5893-4cd0-9540-ba83633ca3b4.asset
+  artifactKey: Guid(86bd7bfd7b250d4488a2e229ce650412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f071eebd-5893-4cd0-9540-ba83633ca3b4.asset using Guid(86bd7bfd7b250d4488a2e229ce650412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fda4f97d09520adc7cf6c594f5fca0') in 0.078993 seconds 
+  Import took 0.086284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type1 02.prefab
+  artifactKey: Guid(d4f06407f06d8cf41b643015132cafca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type1 02.prefab using Guid(d4f06407f06d8cf41b643015132cafca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b74cbbddaac9de1baef27657362b16') in 0.044378 seconds 
+  Import took 0.050685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type3 02.prefab
+  artifactKey: Guid(49e86d56904ce434e84ead31c131cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type3 02.prefab using Guid(49e86d56904ce434e84ead31c131cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7979bef4b65fb47abc4483ac2d17d6') in 0.039564 seconds 
+  Import took 0.047025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Animated/Fence Type1 Door.prefab
+  artifactKey: Guid(9c385ba4a2784df4e957601bf4fafac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Animated/Fence Type1 Door.prefab using Guid(9c385ba4a2784df4e957601bf4fafac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6075ad351144b5c3495e46aa9ce000') in 0.064005 seconds 
+  Import took 0.070807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type6 Big.prefab
+  artifactKey: Guid(ac1f0ef7b8bec92458549c915b3114b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type6 Big.prefab using Guid(ac1f0ef7b8bec92458549c915b3114b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ee7d74b892b172bca07b26dbdd94db') in 0.249900 seconds 
+  Import took 0.254965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/TerrainData_46be127c-1ac4-4e58-8b9a-8f6d28cb3a45.asset
+  artifactKey: Guid(c6a8cd6bfdaf51f4e9e0db4f70589b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_46be127c-1ac4-4e58-8b9a-8f6d28cb3a45.asset using Guid(c6a8cd6bfdaf51f4e9e0db4f70589b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f4659196780ea4d4604633b1bc6ab5') in 0.051180 seconds 
+  Import took 0.057769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type5 Small.prefab
+  artifactKey: Guid(a14aa485a8d4afa46a5e7e72b745ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type5 Small.prefab using Guid(a14aa485a8d4afa46a5e7e72b745ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0c254a1907dad66e680639cae04172') in 0.043163 seconds 
+  Import took 0.049970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/TerrainData_f707d746-3079-4173-baaf-669b898aa7b1.asset
+  artifactKey: Guid(ae111895703f82248bc1eb442eee65e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f707d746-3079-4173-baaf-669b898aa7b1.asset using Guid(ae111895703f82248bc1eb442eee65e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a2512a159e11b1bb9796cc9d8f0b7e') in 0.046384 seconds 
+  Import took 0.053138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type1 01.prefab
+  artifactKey: Guid(4cc487e002327cb43995ca1871bd142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type1 01.prefab using Guid(4cc487e002327cb43995ca1871bd142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190e645975590ee3f0d35c8e585a3162') in 0.038237 seconds 
+  Import took 0.044773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Animated/Fence Type2 Door.prefab
+  artifactKey: Guid(3ad8812903a70904f96d2fb56031ca18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Animated/Fence Type2 Door.prefab using Guid(3ad8812903a70904f96d2fb56031ca18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452f46f821bd8ebcb9149e4abbff0a61') in 0.053558 seconds 
+  Import took 0.060002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(090f66a58d1ad8f4ab7089e8a9bb7e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(090f66a58d1ad8f4ab7089e8a9bb7e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb240480dbf17635dea525ef2755d08f') in 0.042796 seconds 
+  Import took 0.050122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type3 01.prefab
+  artifactKey: Guid(ee17d9afd26027744b8c7d0cc0f25022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Fence Type3 01.prefab using Guid(ee17d9afd26027744b8c7d0cc0f25022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55568f09f90fc24f1467992e85858a07') in 0.035306 seconds 
+  Import took 0.042404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.267119 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_02.prefab
+  artifactKey: Guid(e85c18dfba00c9540859ea847782af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_02.prefab using Guid(e85c18dfba00c9540859ea847782af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134f6ba5edab3d5c918d2cba0a942a84') in 0.038738 seconds 
+  Import took 0.044541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.183974 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts
+  artifactKey: Guid(ed79a329d9490ae41921f877f77fcf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts using Guid(ed79a329d9490ae41921f877f77fcf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2463681aecbbae90cf23421e1505d6') in 0.016727 seconds 
+  Import took 0.023180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077725 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Misc
+  artifactKey: Guid(458e1ba84a6e1a94b8793cd2c8103f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Misc using Guid(458e1ba84a6e1a94b8793cd2c8103f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5f9c185e25a5a1213b723c27625a6a') in 0.016582 seconds 
+  Import took 0.023330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074079 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/SRP
+  artifactKey: Guid(30ac65161cccf454682c7821f5021963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/SRP using Guid(30ac65161cccf454682c7821f5021963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5619b372a3aefb2ff562161f46ea34a9') in 0.017165 seconds 
+  Import took 0.024596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039058 seconds.
+  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_01.fbx
+  artifactKey: Guid(af5390e2a0373984db3740f21c0ec034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_01.fbx using Guid(af5390e2a0373984db3740f21c0ec034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419843e4fcd739d3653ab0b268283708') in 0.149179 seconds 
+  Import took 0.155575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012379 seconds.
+  path: Assets/BrokenVector
+  artifactKey: Guid(1388fc5daaa8f2d4098258891168c50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector using Guid(1388fc5daaa8f2d4098258891168c50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae382a82591995c8c1dc4676b999f8') in 0.016151 seconds 
+  Import took 0.023167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011498 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants
+  artifactKey: Guid(4f4c8460c21aa8b4f81f3b85a3ffa824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants using Guid(4f4c8460c21aa8b4f81f3b85a3ffa824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb821d295b46658bd18528b37e99660c') in 0.016832 seconds 
+  Import took 0.022813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031959 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUp
+  artifactKey: Guid(2df1e1f56b9b77c4bbdeda376cf9895e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUp using Guid(2df1e1f56b9b77c4bbdeda376cf9895e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870cadad7c5fd669228db0e95e7b44bf') in 0.015797 seconds 
+  Import took 0.022630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037014 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Animations/Anim_controllers/PT_Medieval_Female_Peasant_01_Animator Controller.controller
+  artifactKey: Guid(3244fa875fe4385468bc1782ada67391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Animations/Anim_controllers/PT_Medieval_Female_Peasant_01_Animator Controller.controller using Guid(3244fa875fe4385468bc1782ada67391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c1037948efa692d69de7b8e7c58a50') in 0.028695 seconds 
+  Import took 0.035474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018938 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/rockGroup01.fbx
+  artifactKey: Guid(ce05bacb958420d44b5c27f0d00462e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/rockGroup01.fbx using Guid(ce05bacb958420d44b5c27f0d00462e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babce5acc55b8d455c899162911b98e9') in 0.045998 seconds 
+  Import took 0.052158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070968 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Peasant_01_head.fbx
+  artifactKey: Guid(e7d77a9f5726b19489dbc4fced172beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Peasant_01_head.fbx using Guid(e7d77a9f5726b19489dbc4fced172beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44691c0e28a6906f7135e549f14f2621') in 0.077032 seconds 
+  Import took 0.084745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020883 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_01.prefab
+  artifactKey: Guid(6fc2010b5899cfd488a0ddf205679e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_01.prefab using Guid(6fc2010b5899cfd488a0ddf205679e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bce528272562d257f33592f8c168b4') in 0.032409 seconds 
+  Import took 0.040398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053522 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_02.prefab
+  artifactKey: Guid(491dc122236ad9749a046177ea69736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_02.prefab using Guid(491dc122236ad9749a046177ea69736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95a0b69a481399efb33850e1c38c1bf') in 0.045497 seconds 
+  Import took 0.052783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021619 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Waraxe_01_a.fbx
+  artifactKey: Guid(d39eac697c63dfb48afbd0640b733ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Waraxe_01_a.fbx using Guid(d39eac697c63dfb48afbd0640b733ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6ea4d9ff6a18af0280c5afb973595c') in 0.053191 seconds 
+  Import took 0.060060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076124 seconds.
+  path: Assets/SimpleNaturePack/Models
+  artifactKey: Guid(f2460ba6bbb1eee41b63499dcba676dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models using Guid(f2460ba6bbb1eee41b63499dcba676dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce4a79d7ca93a527dae89e3f40e776b') in 0.018387 seconds 
+  Import took 0.025950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051368 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Free_Character_Demo.asset
+  artifactKey: Guid(0ec13f7d513699d4d96521abab3d374d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Free_Character_Demo.asset using Guid(0ec13f7d513699d4d96521abab3d374d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8671440de49b5d4888950ae4cc5336ea') in 0.020857 seconds 
+  Import took 0.026865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016481 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/rock03.fbx
+  artifactKey: Guid(c4f9c28a6050a9f46a1cd17e6b2d65e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/rock03.fbx using Guid(c4f9c28a6050a9f46a1cd17e6b2d65e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b5c676e4e3e678cc8bb36a3ab984ff') in 0.047745 seconds 
+  Import took 0.055287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101372 seconds.
+  path: Assets/Polytope Studio
+  artifactKey: Guid(74f2fcaed5847ee40bde6191dc6f3f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio using Guid(74f2fcaed5847ee40bde6191dc6f3f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1890fac96dacdcd5b3901d8877a2b54') in 0.016531 seconds 
+  Import took 0.023651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094517 seconds.
+  path: Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs
+  artifactKey: Guid(5c6a6df342b52d24092cf6bbb590c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs using Guid(5c6a6df342b52d24092cf6bbb590c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951b33212e7f76d9858049e58cf7a986') in 0.037405 seconds 
+  Import took 0.043621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033566 seconds.
+  path: Assets/LowPolyWater_Pack/_Demo/DemoScene.unity
+  artifactKey: Guid(5af012a8b7991a84fb99a854db8dfc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/_Demo/DemoScene.unity using Guid(5af012a8b7991a84fb99a854db8dfc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78c94565b9da3da202151d91de39704') in 0.017148 seconds 
+  Import took 0.022641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180717 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type5 Small.dae
+  artifactKey: Guid(860b4a48bd6f3cf4b958a1d928e3c111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type5 Small.dae using Guid(860b4a48bd6f3cf4b958a1d928e3c111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd34d7b0cfdd08ef9fe995c79aff3b9') in 0.033776 seconds 
+  Import took 0.040971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015575 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/birchTree.fbx
+  artifactKey: Guid(bf854a44f4078f841a91c4fdfa36277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/birchTree.fbx using Guid(bf854a44f4078f841a91c4fdfa36277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5732175307985521b37dbc6008cdc106') in 0.045078 seconds 
+  Import took 0.050069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035015 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01b.fbx
+  artifactKey: Guid(f867a2534aa85914d9e6b62f681cdf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01b.fbx using Guid(f867a2534aa85914d9e6b62f681cdf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03164531e724cf5e3c15254e914db173') in 0.041606 seconds 
+  Import took 0.046494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047400 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes
+  artifactKey: Guid(ddf165bad6b349b42bc5ed4a77c0bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes using Guid(ddf165bad6b349b42bc5ed4a77c0bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1927430ce163fd6ee8fff7c320c452a9') in 0.014570 seconds 
+  Import took 0.019998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057059 seconds.
+  path: Assets/LowlyPoly
+  artifactKey: Guid(99f6635dd9473fe4e9c7933c3251f31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly using Guid(99f6635dd9473fe4e9c7933c3251f31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d53beb7047d2706966674acaa8e531') in 0.016453 seconds 
+  Import took 0.021183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047864 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01a.fbx
+  artifactKey: Guid(c7acbad2649a15647a7a4dfd8cceb5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01a.fbx using Guid(c7acbad2649a15647a7a4dfd8cceb5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1850431f8d4f484ecead41f132fe34') in 0.050267 seconds 
+  Import took 0.056024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021427 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab
+  artifactKey: Guid(4c1686a5131ac8b45bfe913f509289c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab using Guid(4c1686a5131ac8b45bfe913f509289c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21c76a6f1d8fba52993df903f563d57') in 0.047404 seconds 
+  Import took 0.053463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063931 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Female_Peasant_01_b.fbx
+  artifactKey: Guid(7341932378ffac54c870d31e6c0b7f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Female_Peasant_01_b.fbx using Guid(7341932378ffac54c870d31e6c0b7f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a334f9b39a737b5f6b76a50fb238981') in 0.122935 seconds 
+  Import took 0.134292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024710 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_4 (1).prefab
+  artifactKey: Guid(bd35ed18a0ef4364296b4b99004196fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_4 (1).prefab using Guid(bd35ed18a0ef4364296b4b99004196fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3928b059762b05297fbb775413bb1780') in 0.041470 seconds 
+  Import took 0.050877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025009 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props/Sources/Meshes
+  artifactKey: Guid(92d02a3a95da51947a080432433e47e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props/Sources/Meshes using Guid(92d02a3a95da51947a080432433e47e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b5b34a9bb71bf84b0202d2063e608d') in 0.005465 seconds 
+  Import took 0.016604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013371 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_banner_01b.fbx
+  artifactKey: Guid(dc3de67326229ab459a1320acc34b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_banner_01b.fbx using Guid(dc3de67326229ab459a1320acc34b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879ee4f8083f2f4a741a7802f451e87a') in 0.032181 seconds 
+  Import took 0.036386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017843 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_jug_01.fbx
+  artifactKey: Guid(d68abfcba378a4f46847fa7f406b6ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_jug_01.fbx using Guid(d68abfcba378a4f46847fa7f406b6ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d4b3b06be2d964ff9d669ccc250980') in 0.051600 seconds 
+  Import took 0.055572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117464 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Peasant_01_head.fbx
+  artifactKey: Guid(741bda6e8c0e80d48bbf2f9c10e020e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Peasant_01_head.fbx using Guid(741bda6e8c0e80d48bbf2f9c10e020e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f8973d3eb1278c43423eea375263d9') in 0.069951 seconds 
+  Import took 0.077845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046646 seconds.
+  path: Assets/LowPolyWater_Pack/Documentation/LowPolyWater.pdf
+  artifactKey: Guid(1e736811e92ce314fa59acbfa904053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Documentation/LowPolyWater.pdf using Guid(1e736811e92ce314fa59acbfa904053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bd25dd852699aa71df62331314d423') in 0.014328 seconds 
+  Import took 0.021157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014219 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models
+  artifactKey: Guid(29d623a3fc8d4e04a8e1158958eb6f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models using Guid(29d623a3fc8d4e04a8e1158958eb6f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ba1f0d6dbdbd580fd6a6e816ce47a9') in 0.005928 seconds 
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019698 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01a.prefab
+  artifactKey: Guid(e1032c9b5d7d362489670d42997dceb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01a.prefab using Guid(e1032c9b5d7d362489670d42997dceb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6033a890b9dfa2fea7cedac3027a88b3') in 0.047790 seconds 
+  Import took 0.055521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024491 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUp/LightingData.asset
+  artifactKey: Guid(b009fa1b18fb56048a9147adaceb217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUp/LightingData.asset using Guid(b009fa1b18fb56048a9147adaceb217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data.  Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+ -> (artifact id: 'bd91ea5f1c6fc098d40baec932d623e1') in 0.024909 seconds 
+  Import took 0.032051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018055 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/readme.txt
+  artifactKey: Guid(f96dc578c25b4f840a68d0bcd51a6d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/readme.txt using Guid(f96dc578c25b4f840a68d0bcd51a6d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dfa70cc150cb0230522a1ba4a627fe') in 0.028175 seconds 
+  Import took 0.034808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066987 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Naked_head.fbx
+  artifactKey: Guid(cc416ad47a5a3614ea9bdfa116ed7be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Naked_head.fbx using Guid(cc416ad47a5a3614ea9bdfa116ed7be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b6845afbeddd181b6213f23cd2056d') in 0.069359 seconds 
+  Import took 0.076659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027376 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Materials/Colorsheets
+  artifactKey: Guid(0baf6734625f91946a003fdb562e561a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Materials/Colorsheets using Guid(0baf6734625f91946a003fdb562e561a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c2e9fe20e57c6eb76bfb83971787d8') in 0.023188 seconds 
+  Import took 0.029924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028143 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 02.dae
+  artifactKey: Guid(35aff7f9767a6ee429d8bdf31328705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 02.dae using Guid(35aff7f9767a6ee429d8bdf31328705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529da8050edcf290e3c79dc0e887c892') in 0.037945 seconds 
+  Import took 0.044689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043851 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC
+  artifactKey: Guid(93e9386549bffa746943d3df8326d591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC using Guid(93e9386549bffa746943d3df8326d591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecac1f4d77910f179a636711e6966c0e') in 0.015780 seconds 
+  Import took 0.021308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010928 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props/Sources
+  artifactKey: Guid(a8b2c30c7b0d93a4b9b52439b7833c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props/Sources using Guid(a8b2c30c7b0d93a4b9b52439b7833c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248523350e8dbd2ba192abfa21bbd52e') in 0.017123 seconds 
+  Import took 0.022616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011737 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes
+  artifactKey: Guid(233bc25dd4bfa8846b700d547592a78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes using Guid(233bc25dd4bfa8846b700d547592a78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862ce4d5e66b3f9236e80bb1c7c5c7d2') in 0.005609 seconds 
+  Import took 0.013545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019298 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 03.dae
+  artifactKey: Guid(d48bf2190ea9990478b126e5e2540a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 03.dae using Guid(d48bf2190ea9990478b126e5e2540a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d690bcb61bfe39d362106b601f2c162') in 0.043352 seconds 
+  Import took 0.049780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014650 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props/Sources/Materials
+  artifactKey: Guid(8261cbe04de602148ab9d91964c12a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props/Sources/Materials using Guid(8261cbe04de602148ab9d91964c12a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a512a12a99b79dce9eb097f0a3b5ffb4') in 0.005682 seconds 
+  Import took 0.012596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077439 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials
+  artifactKey: Guid(c1cc34819172c104aaf948ea7e8204e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials using Guid(c1cc34819172c104aaf948ea7e8204e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206b3114905ecaf8d899b2a558f2934d') in 0.006890 seconds 
+  Import took 0.028316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020920 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 02.dae
+  artifactKey: Guid(e004c3c6d0ca04944ad39f9de61d9606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 02.dae using Guid(e004c3c6d0ca04944ad39f9de61d9606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b25d74b040bacfe8aeb75fc504699b6') in 0.047278 seconds 
+  Import took 0.053899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048264 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree02.fbx
+  artifactKey: Guid(ad958cb822595a244972ff1b4c400778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree02.fbx using Guid(ad958cb822595a244972ff1b4c400778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa4cb56802bd139024e42938e777883') in 0.048080 seconds 
+  Import took 0.055401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075118 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Scenes/All Fences Example.unity
+  artifactKey: Guid(9fe87e25a2a95c940b6653376b9bf280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Scenes/All Fences Example.unity using Guid(9fe87e25a2a95c940b6653376b9bf280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a7a0f754a075da6e9f7962b26d1306') in 0.016910 seconds 
+  Import took 0.024260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029047 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree04.fbx
+  artifactKey: Guid(977972e3f92f5e647b1ebad395149050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree04.fbx using Guid(977972e3f92f5e647b1ebad395149050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15f114fba37ecea3097ec3e8f9cbef3') in 0.046956 seconds 
+  Import took 0.052882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042222 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Hayfork_011.prefab
+  artifactKey: Guid(729cc6609d136e14183aa36295931d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Hayfork_011.prefab using Guid(729cc6609d136e14183aa36295931d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff79e2e10a80fd988bdd274a8db0352') in 0.042438 seconds 
+  Import took 0.050407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043877 seconds.
+  path: Assets/greyRoadStudio
+  artifactKey: Guid(0b9f6a2da71443147b7b51026656f28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio using Guid(0b9f6a2da71443147b7b51026656f28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861dc90482e1a00b67bde508c5a69d66') in 0.018221 seconds 
+  Import took 0.025396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012885 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Materials
+  artifactKey: Guid(12376baf0562e694b9d8a1be4b41840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Materials using Guid(12376baf0562e694b9d8a1be4b41840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5859271b0d4bdaf6839055a9b71a4536') in 0.005326 seconds 
+  Import took 0.011466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057357 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_6 (1).prefab
+  artifactKey: Guid(64c63f0bb80794143ba1aec063d50c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_6 (1).prefab using Guid(64c63f0bb80794143ba1aec063d50c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8011cc7178c447255f4dbd18ad7a46ee') in 0.040174 seconds 
+  Import took 0.048318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024592 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_6.prefab
+  artifactKey: Guid(6eef838eb20a63d49a41b9e7b029c4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_6.prefab using Guid(6eef838eb20a63d49a41b9e7b029c4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a797aceb6a442626c58812565a135012') in 0.035345 seconds 
+  Import took 0.042243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020567 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_4 (2).prefab
+  artifactKey: Guid(5cc99df23b038c24fa0950b086f5a0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_4 (2).prefab using Guid(5cc99df23b038c24fa0950b086f5a0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd249e8653f116a0505399febfa73d7a1') in 0.042884 seconds 
+  Import took 0.050894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018043 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Rock03.mat
+  artifactKey: Guid(5ee52a642284f5e4385dabb20444d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Rock03.mat using Guid(5ee52a642284f5e4385dabb20444d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b664be13b12d142195acd7693aa5f4') in 0.093333 seconds 
+  Import took 0.099563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062600 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Male_Naked.fbx
+  artifactKey: Guid(f22ca7aa3c421b84cba54416cd99ab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Male_Naked.fbx using Guid(f22ca7aa3c421b84cba54416cd99ab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb7bab3b1a688002188bd50ea55c22d') in 0.129077 seconds 
+  Import took 0.138401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032071 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree.fbx
+  artifactKey: Guid(67590bf36d0abac419beccf3fcb0e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree.fbx using Guid(67590bf36d0abac419beccf3fcb0e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ac1d8ac8382975931db7f1613a118') in 0.047642 seconds 
+  Import took 0.054494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039093 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Textures
+  artifactKey: Guid(59981f16ea8918f43b561af6c322428c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Textures using Guid(59981f16ea8918f43b561af6c322428c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25da9dc384156952f363754af429b7b0') in 0.016957 seconds 
+  Import took 0.023506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107825 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/demo.unity
+  artifactKey: Guid(e3c28b7f33f57b643b263b418454c280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/demo.unity using Guid(e3c28b7f33f57b643b263b418454c280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa18718af5bded3daa01876be14ab6af') in 0.019019 seconds 
+  Import took 0.026545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020862 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Naked_upper_short.fbx
+  artifactKey: Guid(0524e764a2f219e419700720dcec96e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Naked_upper_short.fbx using Guid(0524e764a2f219e419700720dcec96e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277090de45e302b86766dc55d610a3aa') in 0.068345 seconds 
+  Import took 0.076086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022111 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Naked_upper.fbx
+  artifactKey: Guid(01e77ca6477a45e448f1e8ef9907ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Naked_upper.fbx using Guid(01e77ca6477a45e448f1e8ef9907ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255d0337f045e1b42c3e8cbbb6b3f35a') in 0.067476 seconds 
+  Import took 0.074064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056885 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Peasants_Free_Demo.asset
+  artifactKey: Guid(0ef27c1c1dc8b82488e25e7e8bbbb94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Peasants_Free_Demo.asset using Guid(0ef27c1c1dc8b82488e25e7e8bbbb94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b03e40988dd4426ce78a29d1be3eacb') in 0.022142 seconds 
+  Import took 0.029014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087168 seconds.
+  path: Assets/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4.unitypackage
+  artifactKey: Guid(5b9bfd9e428a3e443a66c361f3675f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4.unitypackage using Guid(5b9bfd9e428a3e443a66c361f3675f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca6bc066149e1df6068e961e601f735') in 0.021225 seconds 
+  Import took 0.027132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052146 seconds.
+  path: Assets/LowPolyWater_Pack/LowPoly Island/textures
+  artifactKey: Guid(b231ef30130d1734c8f632ca8f5f54bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/LowPoly Island/textures using Guid(b231ef30130d1734c8f632ca8f5f54bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ace4f868cc7b710de45464bcad6d2c6') in 0.016803 seconds 
+  Import took 0.024432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111329 seconds.
+  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_05.fbx
+  artifactKey: Guid(7d1c542ac0453aa40a248ffb042193c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_05.fbx using Guid(7d1c542ac0453aa40a248ffb042193c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a38cdfe1f80f3f7b858659cdf6afaf') in 0.044758 seconds 
+  Import took 0.050681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021446 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Peasant_01_upper.fbx
+  artifactKey: Guid(77bd195541420f24c810ff79241ac781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Peasant_01_upper.fbx using Guid(77bd195541420f24c810ff79241ac781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052856723ec1d6ef213b98b736d442d2') in 0.066230 seconds 
+  Import took 0.072667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011704 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Shaders
+  artifactKey: Guid(0d02e545fea795248af687de26038307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Shaders using Guid(0d02e545fea795248af687de26038307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b10218a9c81f306190af6847bdab40a') in 0.007451 seconds 
+  Import took 0.014831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017461 seconds.
+  path: Assets/LowPolyWater_Pack/Scripts/Editor/GeneratePlane.cs
+  artifactKey: Guid(6fe99e92f179e48498503818d15ac6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Scripts/Editor/GeneratePlane.cs using Guid(6fe99e92f179e48498503818d15ac6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa715dc7e0cb3ee20dfa0e648adbd47') in 0.018605 seconds 
+  Import took 0.027150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018993 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Free_Character_Demo.unity
+  artifactKey: Guid(ba6da05b1ce457b4fae1590cb24c5c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Free_Character_Demo.unity using Guid(ba6da05b1ce457b4fae1590cb24c5c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f74c23c700e53bbdd5cc2146417a4dc') in 0.017538 seconds 
+  Import took 0.023399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100141 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons
+  artifactKey: Guid(5a9fa4b6d301dc14aa6250493dff5575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons using Guid(5a9fa4b6d301dc14aa6250493dff5575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dad0881be0255e5fd728a89ca6798f') in 0.019008 seconds 
+  Import took 0.026668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019385 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Naked_head.fbx
+  artifactKey: Guid(59cac636442529149b4e9edc1dda7545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Naked_head.fbx using Guid(59cac636442529149b4e9edc1dda7545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a90b952e96d186dbe750345b7cb4c2') in 0.072664 seconds 
+  Import took 0.079786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014542 seconds.
+  path: Assets/RPGPP_LT/Models/Structures
+  artifactKey: Guid(048df2a8bd38ba042971bbb442e597ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Structures using Guid(048df2a8bd38ba042971bbb442e597ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2039a8d6c6814255c3a27e360f5367') in 0.015039 seconds 
+  Import took 0.022096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082605 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs
+  artifactKey: Guid(bee983e3ea1ffee43b383b2474f40bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs using Guid(bee983e3ea1ffee43b383b2474f40bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b51f877c94036e40328239fc760e63') in 0.005394 seconds 
+  Import took 0.011845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018034 seconds.
+  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_03.fbx
+  artifactKey: Guid(52eeab1f0ce4d934591972b6df5d179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_03.fbx using Guid(52eeab1f0ce4d934591972b6df5d179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef6ad5701afc9cb5f900f826896b751') in 0.044503 seconds 
+  Import took 0.051520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028848 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Scripts
+  artifactKey: Guid(e0d227bdd1be2994193e89b72e324f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Scripts using Guid(e0d227bdd1be2994193e89b72e324f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc3058d55b280b0c6fea1001b960701') in 0.017937 seconds 
+  Import took 0.024334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037315 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_vase_02.fbx
+  artifactKey: Guid(65a171ea06543b04fa7aa086cd66702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_vase_02.fbx using Guid(65a171ea06543b04fa7aa086cd66702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601005fb0e6a8302fc43fcb5ffae29f8') in 0.044601 seconds 
+  Import took 0.050405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029674 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models
+  artifactKey: Guid(0de9b66731e72f44a856c01c08e79ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models using Guid(0de9b66731e72f44a856c01c08e79ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bd68fe1c1298f78fab33c31247fe33') in 0.007282 seconds 
+  Import took 0.014566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066047 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Naked_lower.fbx
+  artifactKey: Guid(6075a02a44b31804c859942100715147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Naked_lower.fbx using Guid(6075a02a44b31804c859942100715147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd908be8ce58cc93b0308b6630c8a7f0d') in 0.067112 seconds 
+  Import took 0.074557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063271 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/SRP/PT_Lowpoly_Medieval_Modular_Peasants_LWRP.unitypackage
+  artifactKey: Guid(a37f2da29aaa9fb4e8949ee9f0b14a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/SRP/PT_Lowpoly_Medieval_Modular_Peasants_LWRP.unitypackage using Guid(a37f2da29aaa9fb4e8949ee9f0b14a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0274137814ea59ea66d9b9c6e6657407') in 0.017306 seconds 
+  Import took 0.022987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072944 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers
+  artifactKey: Guid(002ae82687d12084ebe47a31fdfa01d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers using Guid(002ae82687d12084ebe47a31fdfa01d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11dbe2b205689f72139d4bf3f160fc2') in 0.018032 seconds 
+  Import took 0.025850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020655 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Boy_Peasant_01.fbx
+  artifactKey: Guid(8b794153ea8a6384688d264921d604c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Boy_Peasant_01.fbx using Guid(8b794153ea8a6384688d264921d604c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2d32c013cc5e395f4ec8a3b94f8cbb') in 0.120137 seconds 
+  Import took 0.126799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015118 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs
+  artifactKey: Guid(f2e12b75d09a706418c114d6615f2e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs using Guid(f2e12b75d09a706418c114d6615f2e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba619d8cb970c54076c518e02df16bff') in 0.005375 seconds 
+  Import took 0.012886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029696 seconds.
+  path: Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0Settings.lighting
+  artifactKey: Guid(5d3b834553676f84fb37032bb945d2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0Settings.lighting using Guid(5d3b834553676f84fb37032bb945d2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '09cab81ea11ecd46e7a3cf4a888a5ee7') in 0.023935 seconds 
+  Import took 0.030142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018323 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_sack_01.fbx
+  artifactKey: Guid(8f07894e139232f4fb48b79133ad05fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_sack_01.fbx using Guid(8f07894e139232f4fb48b79133ad05fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07ecdbbea694479ee0c22651ee16e47') in 0.044654 seconds 
+  Import took 0.050926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138953 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Ground.mat
+  artifactKey: Guid(49da8e6e90754214f86c4ccb55d12cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Ground.mat using Guid(49da8e6e90754214f86c4ccb55d12cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f82706f019a38f6b2844d7ef8ee674a') in 0.033752 seconds 
+  Import took 0.040971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114954 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree05.fbx
+  artifactKey: Guid(8821e6a51b1defd4db5c85af2f215af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree05.fbx using Guid(8821e6a51b1defd4db5c85af2f215af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1922cadf75dbcaea4536eb497af95f22') in 0.041729 seconds 
+  Import took 0.048170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037452 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs
+  artifactKey: Guid(3ba94cc50bb068c4bb427a52fdcb0038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs using Guid(3ba94cc50bb068c4bb427a52fdcb0038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f53071828ae83ac9343f5a08e05ce4') in 0.005944 seconds 
+  Import took 0.011871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032364 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_broom_01.fbx
+  artifactKey: Guid(752014a26efd03145b74d57634ef9245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_broom_01.fbx using Guid(752014a26efd03145b74d57634ef9245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830add8776ead434d0925cce019783e5') in 0.044892 seconds 
+  Import took 0.051441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039915 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/demoSettings.lighting
+  artifactKey: Guid(10407226e48de0d42855cce2994d217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/demoSettings.lighting using Guid(10407226e48de0d42855cce2994d217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '09cd02e47e8a411575b5e07bb9ae508a') in 0.017771 seconds 
+  Import took 0.023186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149860 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Peasant_01_lower.fbx
+  artifactKey: Guid(aafdbbb7e5191554c9d66cc459a24de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Peasant_01_lower.fbx using Guid(aafdbbb7e5191554c9d66cc459a24de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2ca19dc940c05fbca94e1ecf8ae910') in 0.058529 seconds 
+  Import took 0.066284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046748 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Tree.mat
+  artifactKey: Guid(8b6f2c2c5ab4c0149b18ba7b50b58178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Tree.mat using Guid(8b6f2c2c5ab4c0149b18ba7b50b58178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c4c09b0fef4bcaa41cec2453a0d5f9') in 0.033775 seconds 
+  Import took 0.040350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156304 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture
+  artifactKey: Guid(3f958f6d490fa3c409a72ba1b872ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture using Guid(3f958f6d490fa3c409a72ba1b872ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27cd3ae037028d511855d1fe7224462') in 0.018117 seconds 
+  Import took 0.024027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018638 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Male_Peasant_01.fbx
+  artifactKey: Guid(f293cd003cf71d6409af1c1025485f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Male_Peasant_01.fbx using Guid(f293cd003cf71d6409af1c1025485f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb438ae4b552b51116439eb4e0ab703') in 0.119165 seconds 
+  Import took 0.126072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012993 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wood
+  artifactKey: Guid(02e35356e96446740bb0b519e7fd9289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wood using Guid(02e35356e96446740bb0b519e7fd9289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02d69ac5ba9a79650527452e187341c') in 0.016380 seconds 
+  Import took 0.022215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010365 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources
+  artifactKey: Guid(50084c0ced59c5243b289606ec1aaa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources using Guid(50084c0ced59c5243b289606ec1aaa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067a22dd92717ecaf2b6bff7b2e82705') in 0.005209 seconds 
+  Import took 0.011358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010947 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources
+  artifactKey: Guid(dbecb2543829435479868fa514fc4ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources using Guid(dbecb2543829435479868fa514fc4ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d67a7d8f7ac5eeb1d23699f7e5fe042') in 0.007564 seconds 
+  Import took 0.014031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011402 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens
+  artifactKey: Guid(fe002ec0fccee1f4da491d8fceebb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens using Guid(fe002ec0fccee1f4da491d8fceebb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9925a8625fca1dcc3bc67698865cbec') in 0.016647 seconds 
+  Import took 0.023095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147460 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_barrel_01.fbx
+  artifactKey: Guid(caf770415cf8b3745b977df80c57628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_barrel_01.fbx using Guid(caf770415cf8b3745b977df80c57628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8d34e7bb24ecfdeaaf2a4d64232011') in 0.045335 seconds 
+  Import took 0.051139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020123 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab
+  artifactKey: Guid(00e2e59cbc04eab4a982218df54ce70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab using Guid(00e2e59cbc04eab4a982218df54ce70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98d187f31972bf4f70937f1205a7d86') in 0.034131 seconds 
+  Import took 0.040420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019943 seconds.
+  path: Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity
+  artifactKey: Guid(b818941d93326b949a3840a1d79ea88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity using Guid(b818941d93326b949a3840a1d79ea88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86daca2ca490b2fa880b9b31f3f5ba86') in 0.017657 seconds 
+  Import took 0.023228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017997 seconds.
+  path: Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity
+  artifactKey: Guid(d2809ab9b90eea7419d8d90d4c505d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity using Guid(d2809ab9b90eea7419d8d90d4c505d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2840697b02569bd3d6641909835fe0a4') in 0.016561 seconds 
+  Import took 0.022725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036483 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_package_01.fbx
+  artifactKey: Guid(4a9eb490516647a4d8765165bfb9cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_package_01.fbx using Guid(4a9eb490516647a4d8765165bfb9cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286354542ba49fe93bbef7e307a39d24') in 0.043840 seconds 
+  Import took 0.051892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015170 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees
+  artifactKey: Guid(62a1a5e916405c74aa4d6d61e8457a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees using Guid(62a1a5e916405c74aa4d6d61e8457a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815df1cf61a34c811cf22924139ca865') in 0.018326 seconds 
+  Import took 0.024847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012184 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Materials/Occlusion
+  artifactKey: Guid(a8b12d8fd0985164bbd7cb4ba3060de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Materials/Occlusion using Guid(a8b12d8fd0985164bbd7cb4ba3060de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04977a45ac67483dc8a8779626e06b39') in 0.021977 seconds 
+  Import took 0.028470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014597 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_01.prefab
+  artifactKey: Guid(ae9772ea62bbc724eb9b8ef81109f733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_01.prefab using Guid(ae9772ea62bbc724eb9b8ef81109f733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528e81eefc573c2fc8e57ea3cc3973fc') in 0.033198 seconds 
+  Import took 0.041514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079445 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields
+  artifactKey: Guid(da9c312667c8c3e4b96d68633b05f959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields using Guid(da9c312667c8c3e4b96d68633b05f959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133afa27a33b8e9c986ba8cc400e7ead') in 0.015797 seconds 
+  Import took 0.022819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081667 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/SRP/PT_Lowpoly_Medieval_Modular_Peasants_URP.unitypackage
+  artifactKey: Guid(314a902c67a45a7479c42a8c6bc51cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/SRP/PT_Lowpoly_Medieval_Modular_Peasants_URP.unitypackage using Guid(314a902c67a45a7479c42a8c6bc51cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701e45c879d313dff3f9af2dbc1ed393') in 0.018054 seconds 
+  Import took 0.024093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080772 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Scenes/Animated Doors Example.unity
+  artifactKey: Guid(97633206e5a33f548ad39bb2bea8cad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Scenes/Animated Doors Example.unity using Guid(97633206e5a33f548ad39bb2bea8cad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd0d28849d2de637b3acc32b9acc803') in 0.018715 seconds 
+  Import took 0.025767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108891 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/birchTree_leafless.fbx
+  artifactKey: Guid(05bac68c5ab8b3d4a89f1030377162ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/birchTree_leafless.fbx using Guid(05bac68c5ab8b3d4a89f1030377162ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a762b354ae94d6a548e099d4c1c2aa8c') in 0.041309 seconds 
+  Import took 0.046301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061639 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Animations/Anim_controllers/PT_Medieval_Peasant_01_a_Animator Controller.controller
+  artifactKey: Guid(2d2d3e7e191224547885f234ae96e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Animations/Anim_controllers/PT_Medieval_Peasant_01_a_Animator Controller.controller using Guid(2d2d3e7e191224547885f234ae96e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fa779d9891fde27991a6b07f0b4a64') in 0.016881 seconds 
+  Import took 0.022466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015763 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_trough_01.fbx
+  artifactKey: Guid(8b3f67c33dd9e9c4ea594b19207b4fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_trough_01.fbx using Guid(8b3f67c33dd9e9c4ea594b19207b4fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe8277002c28c8358411df62ce5d6fc') in 0.051270 seconds 
+  Import took 0.058712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018142 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches
+  artifactKey: Guid(78a57f86b90fd7d43b80a4972f729ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches using Guid(78a57f86b90fd7d43b80a4972f729ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce02f8916e5f949970903d2e4c811ff') in 0.011090 seconds 
+  Import took 0.015381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053033 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/rockGroup03.fbx
+  artifactKey: Guid(7dc8c408cf9eedb42bdd617a5b33750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/rockGroup03.fbx using Guid(7dc8c408cf9eedb42bdd617a5b33750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a474b62c278222466890a213d765f2aa') in 0.036761 seconds 
+  Import took 0.040889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045815 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs
+  artifactKey: Guid(441e217b814e36b4d88b0d92b15c533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs using Guid(441e217b814e36b4d88b0d92b15c533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e611f31f764849f47b78b0c7a810f0e4') in 0.017664 seconds 
+  Import took 0.021863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008143 seconds.
+  path: Assets/SimpleNaturePack/Textures
+  artifactKey: Guid(2d44b6cffc02046488649c55d0f4d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Textures using Guid(2d44b6cffc02046488649c55d0f4d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4be1b1f9995252c20895ec8bcdabda') in 0.014169 seconds 
+  Import took 0.018544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081108 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/demo/LightingData.asset
+  artifactKey: Guid(23a8a9f771b84c2439ad077eadd3c78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/demo/LightingData.asset using Guid(23a8a9f771b84c2439ad077eadd3c78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data.  Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+ -> (artifact id: '65fa1a25825c7e57b2e3b9f3988a3673') in 0.012332 seconds 
+  Import took 0.016828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011427 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Animations/Anim_controllers/PT_Medieval_Peasants_Animator Controller.controller
+  artifactKey: Guid(ab4e82197f44b9148af2327eaaa38b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Animations/Anim_controllers/PT_Medieval_Peasants_Animator Controller.controller using Guid(ab4e82197f44b9148af2327eaaa38b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9e9e077720bcbf58b26da7449eccb1') in 0.017900 seconds 
+  Import took 0.023188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036195 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rocks_tiny_01.prefab
+  artifactKey: Guid(e1154cf6ac27b2f45b4ae35582e7e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rocks_tiny_01.prefab using Guid(e1154cf6ac27b2f45b4ae35582e7e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c23347e1811525bda3abd79d4541c8') in 0.043890 seconds 
+  Import took 0.051162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044300 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree03.fbx
+  artifactKey: Guid(0c6c37ce748b92a4dadb2b5e33ed6449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/pineTree03.fbx using Guid(0c6c37ce748b92a4dadb2b5e33ed6449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac67a872e0af58ea517ab5a8e8852bc9') in 0.043290 seconds 
+  Import took 0.049684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101384 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_rake_01.fbx
+  artifactKey: Guid(7deee4ad3618a17429fa704cea48558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_rake_01.fbx using Guid(7deee4ad3618a17429fa704cea48558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c84c15d2ee84f20c51999fa4b7f2ef1') in 0.044955 seconds 
+  Import took 0.051046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020615 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/tree.fbx
+  artifactKey: Guid(1fc71d46bd91b21459596d37ee587fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/tree.fbx using Guid(1fc71d46bd91b21459596d37ee587fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d6ac14f16a6746e4beb3dad1eef14a') in 0.043191 seconds 
+  Import took 0.049319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055355 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c69d463e9ea7a5ed29a7139fc72995d') in 0.016797 seconds 
+  Import took 0.022888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144359 seconds.
+  path: Assets/RPGPP_LT/Models/Props
+  artifactKey: Guid(c4780675555bd284c889294acc0f87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props using Guid(c4780675555bd284c889294acc0f87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452dd6195317a20f33efb8a2e06b88ab') in 0.005583 seconds 
+  Import took 0.012280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028990 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass
+  artifactKey: Guid(8edd0bcc1fb2d1b4ebab6673d1d675c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass using Guid(8edd0bcc1fb2d1b4ebab6673d1d675c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cc41b2891130625f5246df2a585d2e') in 0.005644 seconds 
+  Import took 0.012128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039563 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Rock02.mat
+  artifactKey: Guid(0605d676e185391419db61f0d07c257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Rock02.mat using Guid(0605d676e185391419db61f0d07c257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c77778f7af4c54c26d4e216cecba94') in 0.040703 seconds 
+  Import took 0.048359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020878 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Naked_head.fbx
+  artifactKey: Guid(2cc27a300ef307d49a14a40b9c29a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Naked_head.fbx using Guid(2cc27a300ef307d49a14a40b9c29a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b6dcf24532b7de37c16fa32b096085') in 0.077887 seconds 
+  Import took 0.085664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012536 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props/Sources/Textures
+  artifactKey: Guid(daaf39ae6e42dfa42ac9a485389edeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props/Sources/Textures using Guid(daaf39ae6e42dfa42ac9a485389edeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c16a4cd77ed291068b13781252caca') in 0.004264 seconds 
+  Import took 0.009532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034159 seconds.
+  path: Assets/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset
+  artifactKey: Guid(ebfb4988eb16add4784122504f75fe2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Plane Meshes/Ocean50x50W750H750.asset using Guid(ebfb4988eb16add4784122504f75fe2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae45c7a17ab765c94c1aacde759d53a8') in 0.058979 seconds 
+  Import took 0.064087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015407 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_4 (3).prefab
+  artifactKey: Guid(5a719f7aac946a44e858a886ae6f4830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_4 (3).prefab using Guid(5a719f7aac946a44e858a886ae6f4830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f47aeedea52bd71aced4f4a835d3c9') in 0.029354 seconds 
+  Import took 0.035223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047026 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_PineTrunk.mat
+  artifactKey: Guid(53c38d3492f12ff48b99b74a4f501353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_PineTrunk.mat using Guid(53c38d3492f12ff48b99b74a4f501353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960dc6a95b422d4075db6339505f7aac') in 0.027903 seconds 
+  Import took 0.032893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034787 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 01.dae
+  artifactKey: Guid(7e1ddd08b1b2c354a8ad951245480569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 01.dae using Guid(7e1ddd08b1b2c354a8ad951245480569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5e16b79793f110f3f96d172a0c12ea') in 0.041010 seconds 
+  Import took 0.047100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018064 seconds.
+  path: Assets/LowPolyWater_Pack/Animation/CameraAnimator.controller
+  artifactKey: Guid(02aa2f95834d8a246a100692c8156bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Animation/CameraAnimator.controller using Guid(02aa2f95834d8a246a100692c8156bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d2c56601983621eb0f3eab4b6cb65a') in 0.020973 seconds 
+  Import took 0.028050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064823 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_03.prefab
+  artifactKey: Guid(f71e980e020ab924ebed9a227a648ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_03.prefab using Guid(f71e980e020ab924ebed9a227a648ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2210a762115b21f3947f679f62c7f22b') in 0.037956 seconds 
+  Import took 0.044909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165379 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/rock01.fbx
+  artifactKey: Guid(40eee6d5f6f994c478afdb774a87c9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/rock01.fbx using Guid(40eee6d5f6f994c478afdb774a87c9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db8b5076c38c2f295c4f89e42c0736d') in 0.041046 seconds 
+  Import took 0.049044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022234 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/tree_leafless.fbx
+  artifactKey: Guid(e44e1a4a2783d5f41afcd8c670195f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/tree_leafless.fbx using Guid(e44e1a4a2783d5f41afcd8c670195f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ab32c19b8f02fe6581910a257dfd87') in 0.039735 seconds 
+  Import took 0.045280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021449 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials
+  artifactKey: Guid(924b642ad1362f343aaa58fd97a526bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials using Guid(924b642ad1362f343aaa58fd97a526bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2873c2d93f192d01ed2edc3cf4ca63') in 0.003289 seconds 
+  Import took 0.009014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011697 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Shaders/PT_Medieval_Modular_NPC_Shader_PBR.shader
+  artifactKey: Guid(5fdb92501eac48d4a87329098a14e790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Shaders/PT_Medieval_Modular_NPC_Shader_PBR.shader using Guid(5fdb92501eac48d4a87329098a14e790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8308f17516ab95a23a17553f9624c7d') in 0.017824 seconds 
+  Import took 0.021598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079238 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01b.fbx
+  artifactKey: Guid(c23d7dd34e2d29a42bf0998f5f20de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01b.fbx using Guid(c23d7dd34e2d29a42bf0998f5f20de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0f65af190f0c1b7e390d8d1b0cf3bb') in 0.039445 seconds 
+  Import took 0.045671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064171 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_02.prefab
+  artifactKey: Guid(9f21020355643c74c88002634abcdabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_02.prefab using Guid(9f21020355643c74c88002634abcdabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a1cad3e6f2320f5af78d353bf35983') in 0.031809 seconds 
+  Import took 0.038006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042867 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Prefabs/Animated
+  artifactKey: Guid(51f1f5e6188c08f4bbaf9c01cd7233d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Prefabs/Animated using Guid(51f1f5e6188c08f4bbaf9c01cd7233d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d7ad3a5ce03a90f9929b3fbde8d7a7') in 0.014764 seconds 
+  Import took 0.020567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039341 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/PT_Medieval_Lowpoly_Peasant_doc.pdf
+  artifactKey: Guid(d52d229e49b82aa46a485278d9893e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/PT_Medieval_Lowpoly_Peasant_doc.pdf using Guid(d52d229e49b82aa46a485278d9893e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765a4578b7435aa79d1b4ff350cea691') in 0.016665 seconds 
+  Import took 0.021740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081133 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/PT_Medieval_Mud_Texture_03.terrainlayer
+  artifactKey: Guid(ecec6d4088f28df46a17565a291e5b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/PT_Medieval_Mud_Texture_03.terrainlayer using Guid(ecec6d4088f28df46a17565a291e5b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d63675cf6a28235611006e5e3a82e0') in 0.058555 seconds 
+  Import took 0.063679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015409 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks
+  artifactKey: Guid(bcdbaf7c59877724ea3cdf590b46ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks using Guid(bcdbaf7c59877724ea3cdf590b46ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bb8a9c9dc82cf18d0d9de06f4ae2ea') in 0.012556 seconds 
+  Import took 0.019127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091439 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets
+  artifactKey: Guid(3f02a3be934dd204799ade6060ee062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets using Guid(3f02a3be934dd204799ade6060ee062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f7c6c284a14cc469f88e494906d16a') in 0.012925 seconds 
+  Import took 0.017699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013665 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Peasant_01_head.fbx
+  artifactKey: Guid(149cc7509b1e17e438e8dd16f5f48cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Peasant_01_head.fbx using Guid(149cc7509b1e17e438e8dd16f5f48cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3ab2a2544fba3ccfcf181aaf9f6666') in 0.093729 seconds 
+  Import took 0.100933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014427 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/treeStump.fbx
+  artifactKey: Guid(938f727ebe2097b41b4316b1b5d89069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/treeStump.fbx using Guid(938f727ebe2097b41b4316b1b5d89069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c61eefe10a6a086ed3e9060829b16b9') in 0.051307 seconds 
+  Import took 0.057134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023276 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_vase_01.fbx
+  artifactKey: Guid(9bd069d17b875254f9fc1eeccdd647b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_vase_01.fbx using Guid(9bd069d17b875254f9fc1eeccdd647b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca14a16108a1445901b0f3f1ecdeaa13') in 0.051685 seconds 
+  Import took 0.058346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209762 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Shaders/PT_Medieval_Modular_NPC_Shader_Toon.shader
+  artifactKey: Guid(c2a8e873b1f296b4cb54e46f51b69c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Shaders/PT_Medieval_Modular_NPC_Shader_Toon.shader using Guid(c2a8e873b1f296b4cb54e46f51b69c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7257ccbf2400948705b9d85bf59f07f') in 0.016103 seconds 
+  Import took 0.022505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086809 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/NewLayer.terrainlayer
+  artifactKey: Guid(dc59ed5405f500b4f873ed03ed4dba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/NewLayer.terrainlayer using Guid(dc59ed5405f500b4f873ed03ed4dba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba70c92fca132fc1f04ff2b3e3c6599') in 0.037813 seconds 
+  Import took 0.042952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121009 seconds.
+  path: Assets/LowPolyWater_Pack/_Demo
+  artifactKey: Guid(b5f8a0e7878d0e3478bda48d5ffc421c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/_Demo using Guid(b5f8a0e7878d0e3478bda48d5ffc421c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873ebe8de74c436c4d16bf5ec1ca93c5') in 0.018211 seconds 
+  Import took 0.026152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020084 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_sack_open_01.fbx
+  artifactKey: Guid(1716e599fb056014ca8f5786b3a82fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_sack_open_01.fbx using Guid(1716e599fb056014ca8f5786b3a82fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c8418947b4383508e346bbad40b534') in 0.053054 seconds 
+  Import took 0.059875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051353 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Scenes
+  artifactKey: Guid(bcbf24c9f12ee604ea1d78b54491f5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Scenes using Guid(bcbf24c9f12ee604ea1d78b54491f5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d49e714dd0585d05d233b8a73e31dcb') in 0.014368 seconds 
+  Import took 0.021888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059780 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs
+  artifactKey: Guid(f6a88a59113dd8940a03ac435b0f5a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs using Guid(f6a88a59113dd8940a03ac435b0f5a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2207607a0fe65f2d6c991c82889726') in 0.020608 seconds 
+  Import took 0.027577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044768 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources
+  artifactKey: Guid(ccd4734fc832a55438dc9ea3f771eb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources using Guid(ccd4734fc832a55438dc9ea3f771eb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e694e3c1839de9b54706b005463e02ec') in 0.007456 seconds 
+  Import took 0.015219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050544 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab
+  artifactKey: Guid(813f38ebf5eabe1429b83876fbaa47db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab using Guid(813f38ebf5eabe1429b83876fbaa47db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd357d69a4e297232596c2360bc70015') in 0.038304 seconds 
+  Import took 0.044924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010105 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments
+  artifactKey: Guid(be41ee6ac43e67344981ef736f6e5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments using Guid(be41ee6ac43e67344981ef736f6e5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027e759098654b0bd1daa4f4501ff8bf') in 0.013732 seconds 
+  Import took 0.018549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026042 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets
+  artifactKey: Guid(ec4891b43982079419e38ecc2ec1ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets using Guid(ec4891b43982079419e38ecc2ec1ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd602ca63de4f8991924594212d07cd12') in 0.007212 seconds 
+  Import took 0.013595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062215 seconds.
+  path: Assets/RPGPP_LT/Models
+  artifactKey: Guid(5895e5cef1e6ad9419b6d721edfe6754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models using Guid(5895e5cef1e6ad9419b6d721edfe6754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9351a8f16cce916a808ff720dd7917be') in 0.003753 seconds 
+  Import took 0.008158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.175675 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/rockGroup02.fbx
+  artifactKey: Guid(0ea1e9698b38fcf459ce485aaaacd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/rockGroup02.fbx using Guid(0ea1e9698b38fcf459ce485aaaacd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57202f48112ce09fde22d410d88f9e46') in 0.044006 seconds 
+  Import took 0.049814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020012 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_wagon_01.fbx
+  artifactKey: Guid(f34a4e9b86005de4da2625205407868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_wagon_01.fbx using Guid(f34a4e9b86005de4da2625205407868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82832133b8d9f9e675bac465e3b6bb0') in 0.057567 seconds 
+  Import took 0.065751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090407 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes
+  artifactKey: Guid(48f9d683a77b2b541b66e8ee4e650529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes using Guid(48f9d683a77b2b541b66e8ee4e650529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be4ade52a3f8924f1635b5f07ab1866') in 0.015266 seconds 
+  Import took 0.020526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040937 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Small.dae
+  artifactKey: Guid(32ece367df421af48acad3f16120520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Small.dae using Guid(32ece367df421af48acad3f16120520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8326d63a1b90e1b0a0f22468896b1c4') in 0.048298 seconds 
+  Import took 0.054235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041089 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_4.prefab
+  artifactKey: Guid(52df8f12aa41e29428ba0bb8a1ffc2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_4.prefab using Guid(52df8f12aa41e29428ba0bb8a1ffc2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741599403293db67bfd50b7797bf3412') in 0.034993 seconds 
+  Import took 0.041309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043327 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Peasant_01_lower_skirt.fbx
+  artifactKey: Guid(9af1fba4850bd304fbe322a1760d4895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Peasant_01_lower_skirt.fbx using Guid(9af1fba4850bd304fbe322a1760d4895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d82fb19a61603ea9f2a6647408c743a') in 0.080523 seconds 
+  Import took 0.090586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054626 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Club_01_a.fbx
+  artifactKey: Guid(b51d20b8d2429da488b0d4a14d62207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Club_01_a.fbx using Guid(b51d20b8d2429da488b0d4a14d62207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c69214d6450a0ddd7bc4f7da0c1200c') in 0.048790 seconds 
+  Import took 0.063279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036529 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_log_wood_01.fbx
+  artifactKey: Guid(83ca3216726525148a325296526fcfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_log_wood_01.fbx using Guid(83ca3216726525148a325296526fcfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f51a5f2267713e8ce6db52496bcc2d') in 0.042733 seconds 
+  Import took 0.048502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018657 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_01.prefab
+  artifactKey: Guid(5286e490afadac545ae3a1595b1e96e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_01.prefab using Guid(5286e490afadac545ae3a1595b1e96e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7ab4bbafeed75fbaa6d75268d8d38f') in 0.035447 seconds 
+  Import took 0.041374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018419 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props/Prefabs/PT_Medieval_Hayfork_01.prefab
+  artifactKey: Guid(b4d0f82eedb95f543ab0961de54f43fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props/Prefabs/PT_Medieval_Hayfork_01.prefab using Guid(b4d0f82eedb95f543ab0961de54f43fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91f6a64c0bf6eba6973102b7b6b1d34') in 0.037608 seconds 
+  Import took 0.043534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046959 seconds.
+  path: Assets/SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage
+  artifactKey: Guid(d504c149f8ea1714d83d6d405de4e157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage using Guid(d504c149f8ea1714d83d6d405de4e157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d46be2f7c2c90e4b109cae17a90fbd9') in 0.013332 seconds 
+  Import took 0.019297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068135 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Peasant_01_lower.fbx
+  artifactKey: Guid(02f805296ac653147a0df445c2ae5a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Peasant_01_lower.fbx using Guid(02f805296ac653147a0df445c2ae5a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd7bd7ea921ad58b8316c755883a4b3') in 0.065331 seconds 
+  Import took 0.073156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089924 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Dagger_01_a.fbx
+  artifactKey: Guid(6678f089a865d2d499bc4fc89f718535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Dagger_01_a.fbx using Guid(6678f089a865d2d499bc4fc89f718535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c1c92b3a3a48f0efd9d3974711b1ab') in 0.044562 seconds 
+  Import took 0.050783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057536 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/oakTree.fbx
+  artifactKey: Guid(ccafc2ea8bec52841ac2b9fd34238310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/oakTree.fbx using Guid(ccafc2ea8bec52841ac2b9fd34238310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f284cefe42450ffdb32c1bd49fa3448') in 0.045259 seconds 
+  Import took 0.051543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040365 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 Door.fbx
+  artifactKey: Guid(d70931b351fe10a45a0bfc07fd362a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type3 Door.fbx using Guid(d70931b351fe10a45a0bfc07fd362a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc12188066fbd35feed00678956c223') in 0.058016 seconds 
+  Import took 0.064176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041056 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_01.prefab
+  artifactKey: Guid(1aad01ae01d836647b215e40f1f4c1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_01.prefab using Guid(1aad01ae01d836647b215e40f1f4c1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da4406374ea31ac8236c60cb0053d09') in 0.035419 seconds 
+  Import took 0.042571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020237 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Tree_1 (1).prefab
+  artifactKey: Guid(960e7a3000a6ba740a72174d5558e00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Tree_1 (1).prefab using Guid(960e7a3000a6ba740a72174d5558e00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0f19c0a8ef5c7f4fdd2e164d06aa07') in 0.037428 seconds 
+  Import took 0.043328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055144 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Female_Naked.fbx
+  artifactKey: Guid(344061dde90b2c64ea11647bbeb14678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Female_Naked.fbx using Guid(344061dde90b2c64ea11647bbeb14678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158f01a071b59021db9d1dc1ef2581ff') in 0.117798 seconds 
+  Import took 0.126447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019769 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bucket_01.fbx
+  artifactKey: Guid(e978333221b12f44ba9099ca8d181f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bucket_01.fbx using Guid(e978333221b12f44ba9099ca8d181f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35012628847f831587815f97ffc9cd3') in 0.043456 seconds 
+  Import took 0.049610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011891 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset
+  artifactKey: Guid(8759eee2450edd64d8bd23355b70f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset using Guid(8759eee2450edd64d8bd23355b70f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c887826aa9130f000a5dc2881c21559') in 0.017568 seconds 
+  Import took 0.024647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018631 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Tree_1 1.prefab
+  artifactKey: Guid(743cea7f434bd1245bf32701fdec39dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Tree_1 1.prefab using Guid(743cea7f434bd1245bf32701fdec39dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22097eb878c5e0696aaabb1bcf63e246') in 0.035621 seconds 
+  Import took 0.041689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021114 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Peasant_01_upper.fbx
+  artifactKey: Guid(c52f84b945748bc439ecf9b2154d75da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Peasant_01_upper.fbx using Guid(c52f84b945748bc439ecf9b2154d75da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846977ddf29c5bdde735c431b3f8447c') in 0.071899 seconds 
+  Import took 0.081098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092950 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 02.dae
+  artifactKey: Guid(e5af5116aa5f71b4fb5f5ffc3443447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 02.dae using Guid(e5af5116aa5f71b4fb5f5ffc3443447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10310dfa6867f61546e7908d2746dea') in 0.040696 seconds 
+  Import took 0.047186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052001 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_BirchLeaves.mat
+  artifactKey: Guid(6abd4c725e0d6694488c7e592678f08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_BirchLeaves.mat using Guid(6abd4c725e0d6694488c7e592678f08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6999f450b617b24703eaf2c773e0d83') in 0.041676 seconds 
+  Import took 0.048095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031715 seconds.
+  path: Assets/LowPolyWater_Pack/Animation
+  artifactKey: Guid(b5ceb4c51f4752241b2e08f466421a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Animation using Guid(b5ceb4c51f4752241b2e08f466421a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c50352113231e985b71d7e4f516b04') in 0.016678 seconds 
+  Import took 0.022338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018216 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Female_Peasant_01_a.fbx
+  artifactKey: Guid(79f5bc60c46f4fd4b92199a19076315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Female_Peasant_01_a.fbx using Guid(79f5bc60c46f4fd4b92199a19076315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e4c9aa3d257cf11e6a674bdcdabd9e') in 0.113863 seconds 
+  Import took 0.122638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070921 seconds.
+  path: Assets/SimpleNaturePack/Materials
+  artifactKey: Guid(3f25702c5c7afec41b85b074bf76e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Materials using Guid(3f25702c5c7afec41b85b074bf76e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa16baa5f52896da1784257f7bdc8f5') in 0.006632 seconds 
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036439 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bench_wood_01.fbx
+  artifactKey: Guid(6bc5a23d8cb251f40b96a1fbf4ddb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bench_wood_01.fbx using Guid(6bc5a23d8cb251f40b96a1fbf4ddb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09949265f00025585f8a665325c87008') in 0.046459 seconds 
+  Import took 0.052756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031641 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_02.prefab
+  artifactKey: Guid(186ecc7a1f977cc4fab5658c00fa3c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_02.prefab using Guid(186ecc7a1f977cc4fab5658c00fa3c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e9f3e38f3b126a5775a7c36c15e8f9') in 0.035148 seconds 
+  Import took 0.041490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020766 seconds.
+  path: Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity
+  artifactKey: Guid(5e7af4bd95ac53a4cb784a9eedf8f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity using Guid(5e7af4bd95ac53a4cb784a9eedf8f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62b5850134540a0ddcf9eb970ab7c27') in 0.016939 seconds 
+  Import took 0.023083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099870 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Peasant_01_upper_short.fbx
+  artifactKey: Guid(897b3bc9eeda19b41b998526f216a53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Peasant_01_upper_short.fbx using Guid(897b3bc9eeda19b41b998526f216a53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efb07f8b62ce37fea9fd607ed7daed4') in 0.063393 seconds 
+  Import took 0.070506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014174 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers
+  artifactKey: Guid(cedcb6555bd89b940a6868c072ed473d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers using Guid(cedcb6555bd89b940a6868c072ed473d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4b6b9c5d265da490772d4af3e7add9') in 0.017172 seconds 
+  Import took 0.024793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013444 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes
+  artifactKey: Guid(4d6fab233dd70af40a09abcf932337d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes using Guid(4d6fab233dd70af40a09abcf932337d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e27e49ca84e8644692ea31586f296b') in 0.007539 seconds 
+  Import took 0.016033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012765 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs
+  artifactKey: Guid(de6e676950f3759498883efd4debf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs using Guid(de6e676950f3759498883efd4debf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2866b7edb00d482230bebe6d23fa3ae') in 0.005599 seconds 
+  Import took 0.011886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048884 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Textures
+  artifactKey: Guid(82ec7aa3dd0195b46a2e87c555520220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Textures using Guid(82ec7aa3dd0195b46a2e87c555520220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b839fd206dd52a32bdbd33f374a9281') in 0.007514 seconds 
+  Import took 0.013897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021723 seconds.
+  path: Assets/LowPolyWater_Pack/LowPoly Island/Credits.txt
+  artifactKey: Guid(1825698004ad0174c9627f15bc4e38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/LowPoly Island/Credits.txt using Guid(1825698004ad0174c9627f15bc4e38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cc302c01a9f89ca5680931c60c25f7') in 0.018565 seconds 
+  Import took 0.025882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030914 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Materials
+  artifactKey: Guid(09faa1c8a2a03c848a5c6bbdceb2a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Materials using Guid(09faa1c8a2a03c848a5c6bbdceb2a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1c43515088ae8fb84d6bbbfded8118') in 0.007087 seconds 
+  Import took 0.013803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073477 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUpSettings.lighting
+  artifactKey: Guid(1f7db94c7d0851949a52c78c5d9200c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUpSettings.lighting using Guid(1f7db94c7d0851949a52c78c5d9200c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '86c96ac61c3c10539ae3b5601122038e') in 0.016704 seconds 
+  Import took 0.023471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114268 seconds.
+  path: Assets/LowPolyWater_Pack/Documentation
+  artifactKey: Guid(a085c41d7ae268a488eb40c08ef2bb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Documentation using Guid(a085c41d7ae268a488eb40c08ef2bb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28916c64c34c3200b292d11992cb3bc') in 0.015901 seconds 
+  Import took 0.022242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046841 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Big.dae
+  artifactKey: Guid(73b1ed3ef1428a24787cba8b7d5ac6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Big.dae using Guid(73b1ed3ef1428a24787cba8b7d5ac6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7703b8b6b37b2ef864fd609af83492') in 0.041820 seconds 
+  Import took 0.049134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049727 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/demo/ReflectionProbe-0.exr
+  artifactKey: Guid(e69fdab6278d9c24cbff2a876905af94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/demo/ReflectionProbe-0.exr using Guid(e69fdab6278d9c24cbff2a876905af94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79d31f7f64d815823dd1060594f0d71') in 0.071101 seconds 
+  Import took 0.077343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061430 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Naked_lower_pants.fbx
+  artifactKey: Guid(a012d1261816f0b4892535cf9f80aa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Naked_lower_pants.fbx using Guid(a012d1261816f0b4892535cf9f80aa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c657f7035a058cabf532f2d53b1129') in 0.073465 seconds 
+  Import took 0.080726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017997 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_well_01.fbx
+  artifactKey: Guid(54708add4b909204cb861ed2bd2cfcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_well_01.fbx using Guid(54708add4b909204cb861ed2bd2cfcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26022f76594376388f84926d56d5fee1') in 0.043532 seconds 
+  Import took 0.049376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037554 seconds.
+  path: Assets/RPGPP_LT/Textures
+  artifactKey: Guid(e060e741575ec9349a2e1b72ede6218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Textures using Guid(e060e741575ec9349a2e1b72ede6218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9593b72fe5d111a770d58b0cb363cb4b') in 0.006479 seconds 
+  Import took 0.013039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016787 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab
+  artifactKey: Guid(7a77ea810bbc0db4992e500affe32dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab using Guid(7a77ea810bbc0db4992e500affe32dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5652b653efd8e8d1422c95d0d957f926') in 0.029238 seconds 
+  Import took 0.035374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020203 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_pine_01.prefab
+  artifactKey: Guid(22a3fd8d3e59a1149bdcd775c0e87241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_pine_01.prefab using Guid(22a3fd8d3e59a1149bdcd775c0e87241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2097164198c96d175be84403031d6dce') in 0.035905 seconds 
+  Import took 0.043801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120618 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Waraxe_01_a.prefab
+  artifactKey: Guid(59a51e492123cc34985ba1a0d212451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Waraxe_01_a.prefab using Guid(59a51e492123cc34985ba1a0d212451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a74b049371903c3e38ed173534a18b5') in 0.035587 seconds 
+  Import took 0.042651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047104 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUp.unity
+  artifactKey: Guid(effd1ba0771f494449683f19b5ba24ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUp.unity using Guid(effd1ba0771f494449683f19b5ba24ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e41a53f7adad81aab8b959747afd77') in 0.019330 seconds 
+  Import took 0.025728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016920 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_ladder_01.fbx
+  artifactKey: Guid(5a5a8e9d7228e204a91c0fb79c12479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_ladder_01.fbx using Guid(5a5a8e9d7228e204a91c0fb79c12479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78324ffb4571c003a1ea0824afd5019f') in 0.045442 seconds 
+  Import took 0.051223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011747 seconds.
+  path: Assets/RPGPP_LT/Scene
+  artifactKey: Guid(807cf4ac218a00345b44c9bd6cc3bf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Scene using Guid(807cf4ac218a00345b44c9bd6cc3bf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0f77dca4f0e85411e55b07364f6950') in 0.016763 seconds 
+  Import took 0.022312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040165 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_OakLeaves.mat
+  artifactKey: Guid(34dd48b381bae5f4f80fe8348a0b644e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_OakLeaves.mat using Guid(34dd48b381bae5f4f80fe8348a0b644e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfa562632243b7c5aa86bd3228ac5a3') in 0.035681 seconds 
+  Import took 0.042120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019050 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 Door.fbx
+  artifactKey: Guid(919734941a900d24090f2925025373f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 Door.fbx using Guid(919734941a900d24090f2925025373f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63394188b69b41845064a441128a48f') in 0.059111 seconds 
+  Import took 0.066602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013588 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props/Prefabs
+  artifactKey: Guid(aa23f77f34f5dd04980fda9c69ed98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props/Prefabs using Guid(aa23f77f34f5dd04980fda9c69ed98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04925971dc4241ea5f101348fa8ef069') in 0.007011 seconds 
+  Import took 0.014438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068801 seconds.
+  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_02.fbx
+  artifactKey: Guid(3ad660daf3a1e02458b9f3eca418861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_02.fbx using Guid(3ad660daf3a1e02458b9f3eca418861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608b6e46c0fac666c1d5bc2078f18011') in 0.048854 seconds 
+  Import took 0.054555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012162 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners
+  artifactKey: Guid(21f0d61f8c43c8b4ba74f5a2b4165c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners using Guid(21f0d61f8c43c8b4ba74f5a2b4165c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718bc512485317b668a06bc98563af79') in 0.016771 seconds 
+  Import took 0.023398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010844 seconds.
+  path: Assets/LowPolyWater_Pack/Scripts
+  artifactKey: Guid(addf2c7968b9c9942857f9779317ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Scripts using Guid(addf2c7968b9c9942857f9779317ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0944f4fe1aedc5fd28759fb301f5e790') in 0.006412 seconds 
+  Import took 0.012705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017660 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 01.dae
+  artifactKey: Guid(607fa0a0a8b6097479348b4480edc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 01.dae using Guid(607fa0a0a8b6097479348b4480edc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce24b9db3cd9d4b22d990649ecd913f') in 0.043545 seconds 
+  Import took 0.049359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020827 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_box_wood_01.fbx
+  artifactKey: Guid(ab945ff7c1d59bb4a8b506cb8c7dafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_box_wood_01.fbx using Guid(ab945ff7c1d59bb4a8b506cb8c7dafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b2787c9d4d0e24388f3ba31e5cd30a') in 0.050072 seconds 
+  Import took 0.056979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137148 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01b.prefab
+  artifactKey: Guid(0aae23549399ae240aa3fcaf1b7ae6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01b.prefab using Guid(0aae23549399ae240aa3fcaf1b7ae6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7b95c1e3915315c3184dc58596f9f7') in 0.038071 seconds 
+  Import took 0.047216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017066 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation
+  artifactKey: Guid(1f67d8c4e62c4144392c50846992f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation using Guid(1f67d8c4e62c4144392c50846992f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affb85c5ee387e2c0a72000324ee480a') in 0.021551 seconds 
+  Import took 0.027519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075806 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bowl_metal_01.fbx
+  artifactKey: Guid(09cc238bd856b5d468789a6d2d0f48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bowl_metal_01.fbx using Guid(09cc238bd856b5d468789a6d2d0f48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54260fa8274e97374438b40464fdd1b') in 0.043465 seconds 
+  Import took 0.050614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031144 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01a.fbx
+  artifactKey: Guid(6db1e633533718d49bd0b8329bc37412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01a.fbx using Guid(6db1e633533718d49bd0b8329bc37412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd5a5efe1b9b04b6e15e9a9a6f631ec') in 0.042409 seconds 
+  Import took 0.050099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109488 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Boy_Naked.fbx
+  artifactKey: Guid(a8b6f66d755a15d4c9acc29c661c800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Medieval_Boy_Naked.fbx using Guid(a8b6f66d755a15d4c9acc29c661c800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6637effe4dda511ac573a66d3c1d3695') in 0.130671 seconds 
+  Import took 0.139097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038444 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor
+  artifactKey: Guid(ca9f035d49c5db74a8feb6a3d797049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor using Guid(ca9f035d49c5db74a8feb6a3d797049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b382d4440938583e11ea51c53118d9') in 0.018833 seconds 
+  Import took 0.025088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097336 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_BirchTree.mat
+  artifactKey: Guid(e85d88f441c91ca4c898a36c492940dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_BirchTree.mat using Guid(e85d88f441c91ca4c898a36c492940dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbd43940e6b08fe656839a2375ee494') in 0.044540 seconds 
+  Import took 0.051405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019636 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/rock02.fbx
+  artifactKey: Guid(fe370a052daa6ec4d82e69b455c68642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/rock02.fbx using Guid(fe370a052daa6ec4d82e69b455c68642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52573914750335edc0cdfdf5617072b9') in 0.048059 seconds 
+  Import took 0.054544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128407 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Small.dae
+  artifactKey: Guid(6a52aea886ff71343a7b3ac3ec6dfd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type4 Small.dae using Guid(6a52aea886ff71343a7b3ac3ec6dfd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a44003fa83cefa8f6a2826bd9f87f4') in 0.054328 seconds 
+  Import took 0.060735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081931 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Peasant_01_lower_pants.fbx
+  artifactKey: Guid(8f10e1741d1029a45b3d80000f53d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Female_Peasant_01_lower_pants.fbx using Guid(8f10e1741d1029a45b3d80000f53d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501f1a83cb115036a28edfb70ef03b6c') in 0.059763 seconds 
+  Import took 0.066799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023124 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_table_01.fbx
+  artifactKey: Guid(16c4b1c9bf28bc44eab122106a0e4864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_table_01.fbx using Guid(16c4b1c9bf28bc44eab122106a0e4864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb7897326b5488d2e8c3c5529b269a1') in 0.043369 seconds 
+  Import took 0.049131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018588 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_01.prefab
+  artifactKey: Guid(dc9954dcaaaee02409e17bacb3dcc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_01.prefab using Guid(dc9954dcaaaee02409e17bacb3dcc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3665b2ba3c690d8881f37b780d03cefe') in 0.039951 seconds 
+  Import took 0.047102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032120 seconds.
+  path: Assets/SimpleNaturePack/Scenes
+  artifactKey: Guid(cf7d20afeed25e648acff9bab9734317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Scenes using Guid(cf7d20afeed25e648acff9bab9734317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4411d5a0ddc49c27af7063f08e2d0da0') in 0.004760 seconds 
+  Import took 0.009765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049898 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_StumpWood.mat
+  artifactKey: Guid(7070f0aa97fe7ca49b39847a252871d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_StumpWood.mat using Guid(7070f0aa97fe7ca49b39847a252871d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a64bcede595c7df960941ec49b8c31') in 0.032568 seconds 
+  Import took 0.039101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015979 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_clothes_01.prefab
+  artifactKey: Guid(9e6377f4cae22eb4194f71c6e76c37b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_clothes_01.prefab using Guid(9e6377f4cae22eb4194f71c6e76c37b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e298c565fd7a73e3db47f9a4966ebaa0') in 0.037934 seconds 
+  Import took 0.044047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048714 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_02.prefab
+  artifactKey: Guid(6910e2407cd484a42a0c2598114751a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_02.prefab using Guid(6910e2407cd484a42a0c2598114751a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311fcdaa8f616e99047f9976063eeca4') in 0.034006 seconds 
+  Import took 0.040479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.280364 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01b.prefab
+  artifactKey: Guid(002f7a569314a244fb643e8ea8d00376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01b.prefab using Guid(002f7a569314a244fb643e8ea8d00376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670cc36ee96ba2debf5b17ea867dc0da') in 0.035473 seconds 
+  Import took 0.043452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010597 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos
+  artifactKey: Guid(bc5ef1be23842da4b8d6dd32a96055f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos using Guid(bc5ef1be23842da4b8d6dd32a96055f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7c7c1f86036e5e19900fe3e24020f8') in 0.023899 seconds 
+  Import took 0.031441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044871 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables
+  artifactKey: Guid(a16cecc9521895f429fc776e5a00616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables using Guid(a16cecc9521895f429fc776e5a00616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d90a3044ad16c9d74b6755977fe51d') in 0.014811 seconds 
+  Import took 0.019914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017517 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Scripts/DoorController.cs
+  artifactKey: Guid(4bb6081b4a37bbe4dbe02dfbf915c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Scripts/DoorController.cs using Guid(4bb6081b4a37bbe4dbe02dfbf915c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3625fceddf0d5693ee2e4d1c7e61a1') in 0.021530 seconds 
+  Import took 0.029019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.172041 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Mountain.mat
+  artifactKey: Guid(8cb2a50bb8c345148858a2fa284dee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Mountain.mat using Guid(8cb2a50bb8c345148858a2fa284dee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c90a924611c2b8e39d4e033f33ba65e') in 0.027974 seconds 
+  Import took 0.032724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078204 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bird_house_01.fbx
+  artifactKey: Guid(8edf1a08abb5cb342a2a608b289c1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bird_house_01.fbx using Guid(8edf1a08abb5cb342a2a608b289c1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dbc8ebaa4ad5e1d36e0d137c0b139e') in 0.054329 seconds 
+  Import took 0.060942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031996 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes/rpgpp_lt_bush_01.prefab
+  artifactKey: Guid(bd1a894f239d58d4dbf63f27e28096bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes/rpgpp_lt_bush_01.prefab using Guid(bd1a894f239d58d4dbf63f27e28096bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fdadd988e396036ecffcaeda2b1023') in 0.037517 seconds 
+  Import took 0.044642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043822 seconds.
+  path: Assets/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4.unitypackage
+  artifactKey: Guid(b8065bad1ff274b42ba313442b4cd7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4.unitypackage using Guid(b8065bad1ff274b42ba313442b4cd7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4850f3db20f1f00b034c4f1ccbd17d7d') in 0.017953 seconds 
+  Import took 0.025932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017112 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_OakTreeTrunk.mat
+  artifactKey: Guid(d07f6b7db2f3b704b866a5bbf55a0e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_OakTreeTrunk.mat using Guid(d07f6b7db2f3b704b866a5bbf55a0e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b35a8a3788bd585cf7c85cd4ebe5eb8') in 0.033378 seconds 
+  Import took 0.039096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020473 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 Door.fbx
+  artifactKey: Guid(3bd29fe4ed3569940ac7518a56a0adfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type1 Door.fbx using Guid(3bd29fe4ed3569940ac7518a56a0adfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e824e19ac4c83ed03c04e22ec23fb9') in 0.071553 seconds 
+  Import took 0.077498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021657 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_hanger_wood_01.fbx
+  artifactKey: Guid(dc53ddfef4a2d414f83c0332e80bfbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_hanger_wood_01.fbx using Guid(dc53ddfef4a2d414f83c0332e80bfbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7206801868a41d082544ea1971f0209') in 0.043960 seconds 
+  Import took 0.052333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037926 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/oakTree_leafless.fbx
+  artifactKey: Guid(e3d54c8d2447c9f4b9ad5d2021da4b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/oakTree_leafless.fbx using Guid(e3d54c8d2447c9f4b9ad5d2021da4b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8096adbc6c0a2f335b7dbec3ef115a7') in 0.043288 seconds 
+  Import took 0.047689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021038 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_03.prefab
+  artifactKey: Guid(0fd5be61d8c00de419d45d6bf745a69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_03.prefab using Guid(0fd5be61d8c00de419d45d6bf745a69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2931ede5f55076e3f93c0fac38a33de8') in 0.032727 seconds 
+  Import took 0.038719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078482 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUp/ReflectionProbe-0.exr
+  artifactKey: Guid(a27cf0322793aa94d904fcf712f30ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/lineUp/ReflectionProbe-0.exr using Guid(a27cf0322793aa94d904fcf712f30ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d6f3a424b26282549353a1d7966b4f') in 0.041454 seconds 
+  Import took 0.049681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083153 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Scene
+  artifactKey: Guid(fc45934d91f0bb04fa3a2efb9039a337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Scene using Guid(fc45934d91f0bb04fa3a2efb9039a337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c346e58ade08c4946f1ecf53d5df3536') in 0.007023 seconds 
+  Import took 0.012774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047665 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 01.dae
+  artifactKey: Guid(836c223527ea5104ea614a4dc350d6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type2 01.dae using Guid(836c223527ea5104ea614a4dc350d6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b11c6e6a81cd7f05c067f2178601452') in 0.045562 seconds 
+  Import took 0.049965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018924 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Models/mountain.fbx
+  artifactKey: Guid(4882698f19d48dd42af12117cea6f02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Models/mountain.fbx using Guid(4882698f19d48dd42af12117cea6f02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84701eb2a0977476f85ed7c63582909') in 0.039637 seconds 
+  Import took 0.046347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018380 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01a.fbx
+  artifactKey: Guid(d4d6eed92fb93e948b95c2fc4d1f6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_wood_path_01a.fbx using Guid(d4d6eed92fb93e948b95c2fc4d1f6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3d7b7ce153693fce24706a5fcba679') in 0.039173 seconds 
+  Import took 0.044075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104441 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes/demo
+  artifactKey: Guid(c2c08132a28034a49b3d340506fbaae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes/demo using Guid(c2c08132a28034a49b3d340506fbaae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7008f8b66ec90651f6324006aefa5fc5') in 0.021424 seconds 
+  Import took 0.028516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034311 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type5 Big.dae
+  artifactKey: Guid(1f40fa7399dd9aa4b93f77317682f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type5 Big.dae using Guid(1f40fa7399dd9aa4b93f77317682f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae20feda83b9022f9c68c6673dc16132') in 0.044895 seconds 
+  Import took 0.050265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024848 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes/rpgpp_lt_bush_02.prefab
+  artifactKey: Guid(efd8147160aa6c64c8121a2ed788744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Bushes/rpgpp_lt_bush_02.prefab using Guid(efd8147160aa6c64c8121a2ed788744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f11889a6d061522e88e50572cac892') in 0.034466 seconds 
+  Import took 0.041749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022087 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01a.prefab
+  artifactKey: Guid(37435aefe5da6f74f8b28c81bb4ffad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01a.prefab using Guid(37435aefe5da6f74f8b28c81bb4ffad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba5cfad2f8166e058f0edecb3ef2c13') in 0.038258 seconds 
+  Import took 0.046045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012262 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Scenes
+  artifactKey: Guid(cb1ef44674e0cdd41935178d6e70ca39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Scenes using Guid(cb1ef44674e0cdd41935178d6e70ca39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3701890ecd222bb481b94ca87ce8b97') in 0.006068 seconds 
+  Import took 0.012326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039048 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01a.prefab
+  artifactKey: Guid(af46e0e24402dfa49aea336191bc47ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01a.prefab using Guid(af46e0e24402dfa49aea336191bc47ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b71809aead51e392e017eef7cb80c53') in 0.040602 seconds 
+  Import took 0.047157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072675 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Scene/Free_Stylized_Textures.unity
+  artifactKey: Guid(bf184b4044fb6df479e752a582722ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Scene/Free_Stylized_Textures.unity using Guid(bf184b4044fb6df479e752a582722ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0640d9748f70f74a34bdcb2b1bdb421a') in 0.023123 seconds 
+  Import took 0.029880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123792 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Naked_upper.fbx
+  artifactKey: Guid(5af53600822926c40901ea742bae35de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Boy_Naked_upper.fbx using Guid(5af53600822926c40901ea742bae35de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3bd63c13a3fb2e49e142106be87dcd') in 0.059959 seconds 
+  Import took 0.069696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057946 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props
+  artifactKey: Guid(a6988b0ccf53e864ab49d22e0a3ef1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props using Guid(a6988b0ccf53e864ab49d22e0a3ef1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95631ab8279cdc4a601fa6a8faf2689a') in 0.013478 seconds 
+  Import took 0.018859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017583 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01b.fbx
+  artifactKey: Guid(ea48d15a3d30c4943927bc8edcd3ff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01b.fbx using Guid(ea48d15a3d30c4943927bc8edcd3ff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b87b901bb52ef499c1cc94519f41a5') in 0.047559 seconds 
+  Import took 0.054288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023712 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Male_Peasant_01_a.prefab
+  artifactKey: Guid(c2660c37a26511c4c93d0bd2a22d5263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Male_Peasant_01_a.prefab using Guid(c2660c37a26511c4c93d0bd2a22d5263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f7a3b2a32cdc637c738719a40da7a3') in 0.049146 seconds 
+  Import took 0.057205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024057 seconds.
+  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_04.fbx
+  artifactKey: Guid(cc4034e4bb7d9cd418975561c7bcd316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_04.fbx using Guid(cc4034e4bb7d9cd418975561c7bcd316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e31337deb0699a7675b72bef73ce7f') in 0.053615 seconds 
+  Import took 0.060828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013100 seconds.
+  path: Assets/LowPolyWater_Pack/Textures
+  artifactKey: Guid(4b28456b986a9d349b1308694aab876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Textures using Guid(4b28456b986a9d349b1308694aab876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc18018e4002b12c1fda126d33085b21') in 0.006314 seconds 
+  Import took 0.014493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021107 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches/rpgpp_lt_bench_wood_01.prefab
+  artifactKey: Guid(94003cdd02bfa0849b07108d63f10e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Benches/rpgpp_lt_bench_wood_01.prefab using Guid(94003cdd02bfa0849b07108d63f10e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993f89e31e798eab05a9a84ca68da1cc') in 0.042972 seconds 
+  Import took 0.051542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023067 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01b.prefab
+  artifactKey: Guid(e88b7bb02ae149940a5a0cddf34fe370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01b.prefab using Guid(e88b7bb02ae149940a5a0cddf34fe370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95eb95fb9fd568d5076748135306b3b') in 0.038623 seconds 
+  Import took 0.044875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028230 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/NewLayer.terrainlayer
+  artifactKey: Guid(6c819301fcb8dae41b907fddf9906cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/NewLayer.terrainlayer using Guid(6c819301fcb8dae41b907fddf9906cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279d348ef4e7bc2fcdf0c4719fae3cd2') in 0.042160 seconds 
+  Import took 0.046432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018136 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/NewLayer 1.terrainlayer
+  artifactKey: Guid(b4e1d482666d0b641bd10f95b1d7057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/NewLayer 1.terrainlayer using Guid(b4e1d482666d0b641bd10f95b1d7057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d87500138f3eda5bee0bbf41b3a8f1') in 0.046545 seconds 
+  Import took 0.051523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053637 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bathtub_wood_01.fbx
+  artifactKey: Guid(1a8449922d22bae4791e0335226fa1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bathtub_wood_01.fbx using Guid(1a8449922d22bae4791e0335226fa1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af774fdf609fb4068ce73d9e6821a913') in 0.038710 seconds 
+  Import took 0.044783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060856 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_PineNeedles.mat
+  artifactKey: Guid(793842aefad08de42b1dd9308bd42f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_PineNeedles.mat using Guid(793842aefad08de42b1dd9308bd42f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be194d9eb144c7b6d20abdfababcd3d') in 0.038674 seconds 
+  Import took 0.045641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072005 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Items
+  artifactKey: Guid(c941b50b6f168394f97708742eb6805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Items using Guid(c941b50b6f168394f97708742eb6805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bffcb9b0c9f27e2090b80746d2652cd') in 0.015938 seconds 
+  Import took 0.023499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113785 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_banner_01a.fbx
+  artifactKey: Guid(d7113c6e2a0f65c4abdb33666078052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_banner_01a.fbx using Guid(d7113c6e2a0f65c4abdb33666078052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0045b159fb83d80393aaf6d860041e67') in 0.042200 seconds 
+  Import took 0.049159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100561 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_StumpBark.mat
+  artifactKey: Guid(924a3979b6c622c40a8c60f66f00be26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_StumpBark.mat using Guid(924a3979b6c622c40a8c60f66f00be26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2480c1ec40e87bddc9225840fc471a3e') in 0.033524 seconds 
+  Import took 0.040070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065395 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_hanger_clothes_01.fbx
+  artifactKey: Guid(30c389f0d35cc414d9e841ff82ce1424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_hanger_clothes_01.fbx using Guid(30c389f0d35cc414d9e841ff82ce1424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53924e6c867e6187041494273d281f4b') in 0.053030 seconds 
+  Import took 0.058771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040504 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_6 (2).prefab
+  artifactKey: Guid(d6aa3fa3739a17c4ca8c2da99162b9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/Prefabs/PT_Medieval_Rock_6 (2).prefab using Guid(d6aa3fa3739a17c4ca8c2da99162b9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7963bc1329294ae41623ff486b487d71') in 0.035292 seconds 
+  Import took 0.041981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054964 seconds.
+  path: Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Big.dae
+  artifactKey: Guid(528e1a5bd85e7dd4781f1fdd6a8cb01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyFencePack/Models/Fence Type6 Big.dae using Guid(528e1a5bd85e7dd4781f1fdd6a8cb01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831c62842daf0f632472e6cacdbb4e97') in 0.043928 seconds 
+  Import took 0.050021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019445 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Rock01.mat
+  artifactKey: Guid(41aba79095f97cd43927b0a4c906b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Rock01.mat using Guid(41aba79095f97cd43927b0a4c906b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcfe9f330e8109e4a4d0dfc7956539f') in 0.032522 seconds 
+  Import took 0.038791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020909 seconds.
+  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Leaves.mat
+  artifactKey: Guid(0f257ccd9100f3a4e9411de677db4f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Leaves.mat using Guid(0f257ccd9100f3a4e9411de677db4f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0521b25467ccf46242734cdd2aaf8ce8') in 0.034878 seconds 
+  Import took 0.041237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020097 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Naked_lower.fbx
+  artifactKey: Guid(8007d44d57306ed43aeb1cc7fdd53ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Medieval_Male_Naked_lower.fbx using Guid(8007d44d57306ed43aeb1cc7fdd53ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03562e247c754876f88c22d7bd0f86d6') in 0.066487 seconds 
+  Import took 0.073367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061786 seconds.
+  path: Assets/LowPolyWater_Pack/LowPoly Island
+  artifactKey: Guid(9320976cad9e2104e931f008e44e5103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/LowPoly Island using Guid(9320976cad9e2104e931f008e44e5103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16816abae04d3bfa44df548406109e5b') in 0.018062 seconds 
+  Import took 0.024774 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
