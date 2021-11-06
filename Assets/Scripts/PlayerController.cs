@@ -4,48 +4,42 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float speed = 9f;
-    [SerializeField] private float rotationSpeed = 2.5f;
-    private void Start()
+    Rigidbody rb;
+    Transform camara;
+    Vector2 movInput;
+    Vector2 rotInput;
+    float rotX;
+    [SerializeField] float velMove = 7f;
+    [SerializeField] float velSprint = 15f;
+    [SerializeField] float sensibilidadMouse = 1f;
+    void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
+        camara = transform.GetChild(0);
+        rotX = camara.eulerAngles.x;
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
-    private void Update()
+    void Update()
     {
-        Movement();
-        PlayerRotation();
+        movInput.x = Input.GetAxis("Horizontal");
+        movInput.y = Input.GetAxis("Vertical");
+
+        rotInput.x = Input.GetAxis("Mouse X") * sensibilidadMouse;
+        rotInput.y = Input.GetAxis("Mouse Y") * sensibilidadMouse;
     }
 
-    void Movement()
+    private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector3.back * speed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.right * speed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector3.left * speed * Time.deltaTime);
-        }
-    }
+        float vel = Input.GetKey(KeyCode.LeftShift) ? velSprint : velMove;
+        rb.velocity = transform.forward * vel * movInput.y + transform.right * vel * movInput.x + new Vector3(0, rb.velocity.y, 0);
 
-    void PlayerRotation()
-    {
-        if (Input.GetKey(KeyCode.Q))
-        {
-            transform.Rotate(new Vector3(0, -1, 0), rotationSpeed);
-        }
-        if (Input.GetKey(KeyCode.E))
-        {
-            transform.Rotate(new Vector3(0, 1, 0), rotationSpeed);
-        }
+        transform.rotation *= Quaternion.Euler(0, rotInput.x , 0);
+
+        rotX += rotInput.y;
+        rotX = Mathf.Clamp(rotX, -50, 50);
+        camara.localRotation = Quaternion.Euler(rotX, 0, 0);
     }
 }
